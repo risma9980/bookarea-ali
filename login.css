@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-doc{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 151, 233);;
+}
+
+form{
+    display: block;
+    background-color: whitesmoke;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+form h3{
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 25px;
+}
+
+form input{
+    display: block;
+    padding: 4px;
+    height: 25px;
+    width: 200px;
+    margin: 10px 0px 5px 0px;
+    border-radius: 3px;
+    border:rgb(216, 216, 216);
+    background-color: rgb(216, 216, 216);
+    color: black;
+}
+
+form label{
+    color: black;
+}
+
+button {
+    display: flex;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(8, 151, 233);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(10, 97, 148);
+}
+
+form a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    color: rgb(9, 134, 206);
+}
+
+form a:hover{
+    color: rgb(10, 97, 148);
+}
+

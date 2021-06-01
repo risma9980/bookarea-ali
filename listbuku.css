@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+/* navigasi*/
+.navigasi{
+    display: flex;
+    justify-content: space-around;
+    height: 70px; 
+    background-color: ivory;
+    color: black;
+    align-items: center;
+}
+  
+  .navigasi h1{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 200;
+    letter-spacing: -1px;
+    color: rgb(8, 151, 233);
+  }
+  
+  .navigasi ul{
+    list-style: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+  
+  .navigasi ul a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+  
+  .navigasi ul a:hover{
+    color:  rgb(8, 151, 233);
+  }
+  
+/* main konten */
+
+.div-form{
+    margin: 20px 0px 20px 30px;
+    padding-top: 20px;
+    color: rgb(8, 151, 233);
+}
+
+.fcari {
+    flex-grow: 3;
+    margin-right: 300px;
+}
+
+.fcari input{
+    padding: 5px 20px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 235);
+    border: 1px solid ivory;
+}
+
+.fcari button{
+    padding: 4px;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(8, 151, 233);
+    border-color: transparent;
+    color: white;
+}
+
+.fcari button:hover{
+    background-color: rgb(8, 121, 187);
+}
+
+.third-doc{
+    background-color: ivory;
+    margin:0px 20px;
+    padding-bottom: 30px;
+    border-radius: 4px;   
+}
+
+.border{
+    border: 2px solid rgb(230, 230, 230);
+}
+
+.div-table{
+    width: 97%;
+    margin: 30px auto;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+}
+
+table tr td{
+    text-align: center;
+    border: 1px solid  rgb(218, 215, 215);
+    color: rgb(97, 96, 96);
+}
+
+table tr th{
+    text-align: center;
+    border: 1px solid  rgb(218, 215, 215);
+    padding: 10px;
+    color: rgb(112, 110, 110);
+}
+
+.td-btn-edit,
+.td-btn-del
+{
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+.td-btn-edit {
+    background-color: rgb(28, 204, 101);
+    border-color: transparent;
+}
+
+.td-btn-edit:hover {
+    background-color: rgb(42, 161, 92);
+    border-color: transparent;
+}
+
+.td-btn-del {
+    background-color: #cf0000;
+    border-color: transparent;
+}
+
+.td-btn-del:hover {
+    background-color: #9c0808;
+    border-color: transparent;
+}
+
+.td-img {
+    margin: 10px
+}

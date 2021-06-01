@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+/* navigasi */
+
+nav {
+    flex-grow: 1;
+    background-color: rgb(9, 123, 189);
+    color: white;
+}
+
+nav header {
+    padding: 30px 0px 30px 15px;
+}
+
+.nav-link{
+    display: block;
+    border-bottom: 1px solid ivory;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/* main konten */
+
+#main-doc {
+    flex-grow: 24;
+}
+
+.second-doc {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: ivory;
+    padding: 30px 50px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.second-doc a{
+    color: rgb(9, 123, 189);
+    text-decoration: none;
+}
+
+.second-doc a:hover{
+    color: black;
+}
+
+.third-doc{
+    background-color: ivory;
+    margin:0px 20px;
+    padding-bottom: 30px;
+    border-radius: 4px;
+}
+
+.third-doc h3{
+    margin: 20px 0px 20px 30px ;
+    padding-top: 20px;
+    color: rgb(8, 151, 233);
+}
+
+.border{
+    border: 2px solid rgb(230, 230, 230);
+}
+
+form ul {
+    padding: 30px 0px 0px 30px;
+}
+
+ul li{
+    list-style-type: none;
+    padding-bottom: 5px;
+    color: rgb(93, 93, 93);
+}
+
+li input {
+    display: block;
+    padding: 4px;
+    height: 25px;
+    width: 305px;
+    margin: 10px 0px 5px 0px;
+    border-radius: 3px;
+    background: transparent;
+}
+
+
+li button {
+    display: block;
+    margin: 20px 0px 0px 120px;
+    padding: 5px;
+    background-color: rgb(8, 151, 233);
+    color: cornsilk;
+    border-radius: 4px;
+}
+
+

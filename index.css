@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* navigasi */
+.navigasi{
+  display: flex;
+  justify-content: space-around;
+  height: 70px; 
+  background-color: ivory;
+  color: black;
+  align-items: center;
+}
+
+.navigasi h1{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 200;
+  letter-spacing: -1px;
+  color: rgb(8, 151, 233);
+}
+
+.navigasi ul{
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.navigasi ul a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.navigasi ul a:hover{
+  color:  rgb(8, 151, 233);
+}
+
+/* konten */
+container{
+    margin-top: 10px;
+    display: grid; 
+  }
+
+/* header image */
+header {
+  display: grid;
+  grid-template-areas:
+      'left left top'
+      'left left bottom';
+  color: white;
+  grid-gap: 5px;
+  font-family: 'Kanit', sans-serif;   
+}
+  
+.img-left{
+  grid-area: left;  
+  min-height: 350px;
+  background-image: url("https://i.ibb.co/x8Qpnw4/rsz-pecandu-buku.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-content: center start;
+  padding: 20px;
+}
+  
+.img-top{
+  grid-area: top;
+  min-height: 100px;
+  background-image: url("https://i.ibb.co/P6N8KZX/F-ADV-DISARPUS-6-e1562843895263.jpg");
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+  
+.img-bottom{
+  grid-area: bottom;
+  min-height: 100px;
+  background-image: url("https://i.ibb.co/4VhcTKd/2138466497.jpg");
+  background-image: cover;
+  background-position: center;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.img-bottom:hover,
+.img-top:hover,
+.img-left:hover
+{
+  opacity: 0.8;
+}
+  
+.img-top h4, .img-bottom h4{
+  font-size: 1.5rem;
+  line-height: 25px;
+}
+
+/* konten - alasan membaca*/
+.container h2{
+  padding-top: 40px;
+  text-align: center;
+}
+  
+.four-why{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+  font-family: sans-serif;
+  padding: 40px 30px;
+}
+  
+.reason{
+  display: grid;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  background-color: rgb(238, 238, 238);
+}
+
+.reason i{
+  margin-bottom: 10px;
+  color: rgb(8, 151, 233);
+  font-size: 40px;
+}
+
+.p-text{
+  display: flex;
+  place-items: center;
+  margin: 20px;
+}
+
+.photo {
+  border-radius: 100px;
+  padding-right: 20px;
+}
+
+blockquote .p-text {
+  text-align: center;
+  padding: 40px auto;
+  justify-content: center;
+}
+
+blockquote{
+  width: 800px;
+  margin: 20px auto;
+}
+
+/* footer */
+
+footer{
+  background-color: rgb(8, 151, 233);
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.medsos{
+  padding-top: 10px;
+  padding: 20px;
+}
+
+.medsos a{
+  text-decoration: none;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.medsos a:hover{
+  color: rgb(212, 212, 212);
+}
+
+
+  
+

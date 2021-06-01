@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+/* navigasi */
+
+nav {
+    flex-grow: 1;
+    background-color: rgb(9, 123, 189);
+    color: ivory;
+}
+
+nav header {
+    display: block;
+    padding: 30px 0px 30px 15px;
+}
+
+.nav-link{
+    display: block;
+    border-bottom: 1px solid ivory;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    color: ivory;
+}
+
+
+/* main konten */
+#main-doc {
+    flex-grow: 24;
+}
+
+.second-doc {
+    display: flex;
+    margin-bottom: 20px;;
+    background-color: ivory;
+    padding: 25px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logout{
+    color: rgb(9, 123, 189);
+    text-decoration: none;
+}
+
+.logout:hover {
+    color: black;
+}
+
+.fcari {
+    flex-grow: 3;
+    margin-right: 300px;
+}
+
+.fcari input{
+    padding: 5px 20px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 235);
+    border: 1px solid ivory;
+}
+
+.fcari button{
+    padding: 4px;
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(8, 151, 233);
+    border-color: transparent;
+    color: white;
+}
+
+.fcari button:hover{
+    background-color: rgb(8, 121, 187);
+}
+
+.third-doc{
+    background-color: ivory;
+    margin:0px 20px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    
+}
+
+.third-doc h3{
+    margin: 20px 0px 20px 30px;
+    padding-top: 20px;
+    color: rgb(8, 151, 233);
+}
+
+.border{
+    border: 2px solid rgb(230, 230, 230);
+}
+
+.div-table{
+    width: 97%;
+    margin: 30px auto;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+}
+
+
+table tr td{
+    text-align: center;
+    border: 1px solid  rgb(218, 215, 215);
+    color: rgb(97, 96, 96);
+}
+
+table tr th{
+    text-align: center;
+    border: 1px solid  rgb(218, 215, 215);
+    padding: 10px;
+    color: rgb(112, 110, 110);
+    
+}
+
+.td-btn-edit,
+.td-btn-del
+{
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+.td-btn-edit {
+    background-color: rgb(28, 204, 101);
+    border-color: transparent;
+}
+
+.td-btn-edit:hover {
+    background-color: rgb(42, 161, 92);
+    border-color: transparent;
+}
+
+.td-btn-del {
+    background-color: #cf0000;
+    border-color: transparent;
+}
+
+.td-btn-del:hover {
+    background-color: #9c0808;
+    border-color: transparent;
+}
+
+.td-img {
+    margin: 10px
+}
